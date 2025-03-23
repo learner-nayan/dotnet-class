@@ -19,7 +19,12 @@ internal class Program
         // Loop.Run();
         // NumberConversion.Run();
         // CopyValue.Run();
-
         // User.ShowInfo();
+        // ElvisPresley.Run();
+        // Miscellaneous.Run();
+        // NormalArray.Run();
+        // RectangularArray.Run();
+        JaggedArray.Run();
+
     }
 }

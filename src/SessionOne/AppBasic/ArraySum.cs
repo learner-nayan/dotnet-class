@@ -18,6 +18,13 @@ public static class ArraySum
             return;
         }
 
+        // Handle more than 5
+        if (totalNumber > 5)
+        {
+            Console.WriteLine("\n❌ Invalid input. Please enter a number less than 5.");
+            return;
+        }
+
         Console.WriteLine("\nEnter numerical elements:");
         for (int i = 0; i < totalNumber; i++)
         {
@@ -32,5 +39,13 @@ public static class ArraySum
                 numbersToAdd[i] = 0;
             }
         }
+        
+        // calculating sum with all the array elements
+        for (int i = 0; i < numbersToAdd.Length; i++)
+        {
+            sum += numbersToAdd[i];
+        }
+        
+        Console.WriteLine($"\nThe sum of the elements is {sum}");
     }
 }

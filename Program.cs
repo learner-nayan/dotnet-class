@@ -24,7 +24,10 @@ internal class Program
         // Miscellaneous.Run();
         // NormalArray.Run();
         // RectangularArray.Run();
-        JaggedArray.Run();
-
+        // JaggedArray.Run();
+        // ArraySum.Run();
+        // Factorial.Run();
+        // Definite.Run();
+        Params.Run();
     }
 }

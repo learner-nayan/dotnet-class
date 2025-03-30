@@ -28,6 +28,8 @@ internal class Program
         // ArraySum.Run();
         // Factorial.Run();
         // Definite.Run();
-        Params.Run();
+        // Params.Run();
+        // Iteration.Run();
+        Jump.Run();
     }
 }

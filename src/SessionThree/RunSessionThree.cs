@@ -33,4 +33,12 @@ public class RunSessionThree
         Increment resulltOne = ++inc;
         Console.WriteLine($"This in incremented value {resulltOne.ToString()}");
     }
+
+    public static void RunAppPolyClass()
+    {
+        // RunAppPoly.RunDictionary();
+        // RunAppPoly.RunQueue();
+        // RunAppPoly.RunStack();
+        RunAppPoly.RunArrayList();
+    }
 }

@@ -36,7 +36,8 @@ internal class Program
         
         // RunSessionThree.RunAnimal();
         // RunSessionThree.RunShape();
-        RunSessionThree.RunOperatorOverloading();
+        // RunSessionThree.RunOperatorOverloading();
+        RunSessionThree.RunAppPolyClass();
     }
 
 }

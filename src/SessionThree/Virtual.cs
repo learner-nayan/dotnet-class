@@ -7,20 +7,20 @@ public class User
     {
         System.Console.WriteLine("Hello");
     }
+}
 
-    public class AdminUser : User
+public class AdminUser : User
+{
+    public override void Greet()
     {
-        public override void Greet()
-        {
-            Console.WriteLine("Greetings, administrator");
-        }
+        Console.WriteLine("Greetings, administrator");
     }
-    
-    public class GuestUser : User
+}
+
+public class GuestUser : User
+{
+    public override void Greet()
     {
-        public override void Greet()
-        {
-            Console.WriteLine("Welcome, guest");
-        }
+        Console.WriteLine("Welcome, guest");
     }
 }
